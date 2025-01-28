@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TortuTerra</title>
+  <link rel="stylesheet" href="stylessUser.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>TortuTerra</h1>
+    </header>
+    <main class="main">
+      <div class="card">
+        <div class="user-section">
+            <img src="user.png" alt="Imagen de usuario" class="user-image">
+            <div class="user-info">
+              <label for="usuario">Usuario</label>
+              <input type="text" id="usuario" placeholder="Nombre de usuario">
+            </div>
+          </div>
+          <div class="settings">
+            <button class="edit-btn">Editar</button>
+            <div class="mode-toggle">
+              <label for="modo1">Modo</label>
+              <input type="radio" name="modo" id="modo1">
+              <input type="radio" name="modo" id="modo2">
+            </div>
+            <a href="login.html">
+            <button class="logout-btn">Cerrar sesión</button>
+            </a>
+          </div>
+      </div>
+    </main>
+    <nav class="navbar">
+      <div class="nav-item">
+        <a href="index.html">
+          <img src="menu-icon.png" alt="Menú">
+        </a>
+          <span>Menu</span>
+      </div>
+      <div class="nav-item">
+        <a href="control.html">
+          <img src="control-icon.png" alt="Control">
+        </a>
+          <span>Control</span>
+      </div>
+      <div class="nav-item">
+        <a href="registro.html">
+          <img src="register-icon.png" alt="Registro">
+        </a>
+          <span>Registro</span>
+      </div>
+      <div class="nav-item">
+        <a href="user.html">
+          <img src="user-icon.png" alt="Yo">
+        </a>
+          <span>Yo</span>
+      </div>
+    </nav>
+  </div>
+</body>
+</html>
